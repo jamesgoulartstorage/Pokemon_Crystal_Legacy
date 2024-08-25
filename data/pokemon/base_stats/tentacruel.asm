@@ -1,6 +1,7 @@
 	db TENTACRUEL ; 073
 
-	db  80,  70,  65, 100,  80, 120
+	; db  80,  70,  65, 100,  80, 120
+	  db 80, 70, 85, 80, 90, 110
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, POISON ; type
@@ -13,7 +14,7 @@
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/tentacruel/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_MEDIUM_SLOW; SLOW ; growth rate
 	dn EGG_WATER_3, EGG_WATER_3 ; egg groups
 
 	; tm/hm learnset
