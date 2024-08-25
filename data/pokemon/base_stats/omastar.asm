@@ -1,6 +1,7 @@
 	db OMASTAR ; 139
 
-	db  70,  60, 125,  55, 115,  70
+	; db  70,  60, 125,  55, 115,  70
+	  db 75, 80, 115, 55, 95, 75
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, WATER ; type
