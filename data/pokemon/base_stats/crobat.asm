@@ -1,6 +1,7 @@
 	db CROBAT ; 169
 
-	db  85,  90,  80, 130,  70,  80
+	; db  85,  90,  80, 130,  70,  80
+	  db 85, 110, 85, 130, 40, 85
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, FLYING ; type
