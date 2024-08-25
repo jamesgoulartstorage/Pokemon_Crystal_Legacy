@@ -1,9 +1,10 @@
 	db MACHAMP ; 068
 
-	db  90, 130,  80,  55,  65,  85
+	; db  90, 130,  80,  55,  65,  85
+	  db 90, 135, 90, 75, 25, 85
 	;   hp  atk  def  spd  sat  sdf
 
-	db FIGHTING, FIGHTING ; type
+	db FIGHTING, DARK; FIGHTING ; type
 	db 45 ; catch rate
 	db 193 ; base exp
 	db NO_ITEM, NO_ITEM ; items
