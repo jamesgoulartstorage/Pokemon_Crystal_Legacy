@@ -1,9 +1,10 @@
 	db WOBBUFFET ; 202
 
-	db 190,  33,  58,  33,  33,  58
+	; db 190,  33,  58,  33,  33,  58
+	  db 190, 33, 73, 33, 33, 73
 	;   hp  atk  def  spd  sat  sdf
 
-	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
+	db PSYCHIC_TYPE, DARK; PSYCHIC_TYPE ; type
 	db 45 ; catch rate
 	db 177 ; base exp
 	db NO_ITEM, NO_ITEM ; items
