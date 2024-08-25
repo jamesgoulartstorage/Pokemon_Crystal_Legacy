@@ -1,9 +1,10 @@
 	db TOGETIC ; 176
 
-	db  85, 50,  85,  40,  80, 105
+	; db  85, 50,  85,  40,  80, 105
+	  db 70, 30, 70, 70, 110, 95
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, FLYING ; type
+	db PSYCHIC_TYPE, FLYING; NORMAL, FLYING ; type
 	db 75 ; catch rate
 	db 114 ; base exp
 	db NO_ITEM, NO_ITEM ; items
