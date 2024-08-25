@@ -1,6 +1,7 @@
 	db WOOPER ; 194
 
-	db  55,  45,  45,  15,  25,  25
+	; db  55,  45,  45,  15,  25,  25
+	  db 45, 45, 45, 40, 25, 25
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, GROUND ; type
