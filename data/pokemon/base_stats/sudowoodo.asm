@@ -1,9 +1,10 @@
 	db SUDOWOODO ; 185
 
-	db  80, 100, 115,  30,  30,  85
+	; db  80, 100, 115,  30,  30,  85
+	  db 80, 90, 90, 30, 70, 80
 	;   hp  atk  def  spd  sat  sdf
 
-	db ROCK, ROCK ; type
+	db ROCK, GRASS; ROCK ; type
 	db 65 ; catch rate
 	db 135 ; base exp
 	db NO_ITEM, NO_ITEM ; items
