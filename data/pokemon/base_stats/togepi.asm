@@ -1,9 +1,10 @@
 	db TOGEPI ; 175
 
-	db  35,  20,  65,  20,  40,  65
+	; db  35,  20,  65,  20,  40,  65
+	  db 35, 5, 45, 35, 65, 60
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db PSYCHIC_TYPE, PSYCHIC_TYPE; NORMAL, NORMAL ; type
 	db 190 ; catch rate
 	db 74 ; base exp
 	db NO_ITEM, NO_ITEM ; items
