@@ -1,9 +1,10 @@
 	db RAPIDASH ; 078
 
-	db  65, 100,  70, 115,  80,  80
+	; db  65, 100,  70, 115,  80,  80
+	  db 75, 95, 70, 105, 85, 80
 	;   hp  atk  def  spd  sat  sdf
 
-	db FIRE, FIRE ; type
+	db NORMAL, FIRE;, FIRE ; type
 	db 60 ; catch rate
 	db 192 ; base exp
 	db NO_ITEM, NO_ITEM ; items
