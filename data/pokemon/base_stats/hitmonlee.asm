@@ -1,9 +1,10 @@
 	db HITMONLEE ; 106
 
-	db  50, 120,  58,  87,  35, 110
+	; db  50, 120,  58,  87,  35, 110
+	  db 70, 110, 73, 87, 35, 80
 	;   hp  atk  def  spd  sat  sdf
 
-	db FIGHTING, FIGHTING ; type
+	db FIGHTING, DARK; FIGHTING ; type
 	db 45 ; catch rate
 	db 139 ; base exp
 	db NO_ITEM, NO_ITEM ; items
