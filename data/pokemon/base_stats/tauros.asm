@@ -1,9 +1,10 @@
 	db TAUROS ; 128
 
-	db  75, 100,  95, 110,  40,  70
+	; db  75, 100,  95, 110,  40,  70
+	  db 90, 110, 90, 110, 20, 70
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, FIGHTING; NORMAL ; type
 	db 45 ; catch rate
 	db 211 ; base exp
 	db NO_ITEM, NO_ITEM ; items
