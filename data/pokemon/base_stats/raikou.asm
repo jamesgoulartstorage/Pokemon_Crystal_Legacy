@@ -4,7 +4,7 @@
 	  db 90, 70, 75, 125, 120, 100
 	;   hp  atk  def  spd  sat  sdf
 
-	db ELECTRIC, ELECTRIC ; type
+	db ELECTRIC, GHOST; ELECTRIC ; type
 	db 3 ; catch rate
 	db 216 ; base exp
 	db NO_ITEM, NO_ITEM ; items
