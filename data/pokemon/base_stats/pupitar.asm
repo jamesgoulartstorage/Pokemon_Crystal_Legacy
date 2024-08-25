@@ -1,6 +1,7 @@
 	db PUPITAR ; 247
 
-	db  70,  84,  70,  51,  65,  70
+	; db  70,  84,  70,  51,  65,  70
+	  db 70, 84, 80, 61, 45, 70
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, GROUND ; type
