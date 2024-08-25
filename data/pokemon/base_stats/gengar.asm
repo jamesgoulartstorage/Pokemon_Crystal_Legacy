@@ -1,9 +1,10 @@
 	db GENGAR ; 094
 
-	db  60, 65,  60,  110, 130,  75
+	; db  60, 65,  60,  110, 130,  75
+	  db 60, 50, 70, 110, 130, 80
 	;   hp  atk  def  spd  sat  sdf
 
-	db GHOST, POISON ; type
+	db GHOST, ICE; POISON ; type
 	db 45 ; catch rate
 	db 190 ; base exp
 	db NO_ITEM, NO_ITEM ; items
