@@ -1,9 +1,10 @@
 	db MR__MIME ; 122
 
-	db  40,  45,  65,  90, 100, 120
+	; db  40,  45,  65,  90, 100, 120
+	  db 65, 15, 95, 90, 110, 115
 	;   hp  atk  def  spd  sat  sdf
 
-	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
+	db PSYCHIC_TYPE, ICE; PSYCHIC_TYPE ; type
 	db 45 ; catch rate
 	db 136 ; base exp
 	db NO_ITEM, MYSTERYBERRY ; items
