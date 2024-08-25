@@ -1,6 +1,7 @@
 	db AERODACTYL ; 142
 
-	db  80, 105,  65, 130,  60,  75
+	; db  80, 105,  65, 130,  60,  75
+	db 80, 110, 90, 130, 30, 75
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, FLYING ; type
