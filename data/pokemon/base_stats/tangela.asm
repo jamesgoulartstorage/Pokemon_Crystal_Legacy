@@ -1,9 +1,10 @@
 	db TANGELA ; 114
 
-	db  65,  55, 115,  60, 100,  40
+	; db  65,  55, 115,  60, 100,  40
+	  db 65, 25, 80, 60, 100, 95
 	;   hp  atk  def  spd  sat  sdf
 
-	db GRASS, GRASS ; type
+	db GRASS, GHOST; GRASS ; type
 	db 45 ; catch rate
 	db 166 ; base exp
 	db NO_ITEM, NO_ITEM ; items
