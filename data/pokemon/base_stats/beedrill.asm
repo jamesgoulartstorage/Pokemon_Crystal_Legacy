@@ -1,6 +1,7 @@
 	db BEEDRILL ; 015
 
-	db  65,  80,  40,  75,  45,  80
+	; db  65,  80,  40,  75,  45,  80
+	db 65, 90, 50, 95, 25, 70
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, POISON ; type
