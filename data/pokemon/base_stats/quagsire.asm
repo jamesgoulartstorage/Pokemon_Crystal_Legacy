@@ -1,6 +1,7 @@
 	db QUAGSIRE ; 195
 
-	db  95,  85,  85,  35,  75,  75
+	; db  95,  85,  85,  35,  75,  75
+	  db 80, 85, 85, 50, 65, 65
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, GROUND ; type
