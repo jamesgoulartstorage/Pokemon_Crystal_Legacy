@@ -1,9 +1,10 @@
 	db HITMONTOP ; 237
 
-	db  50,  95,  95,  75,  35, 110
+	; db  50,  95,  95,  75,  35, 110
+	  db 65, 95, 95, 80, 20, 95
 	;   hp  atk  def  spd  sat  sdf
 
-	db FIGHTING, FIGHTING ; type
+	db FIGHTING, GROUND; FIGHTING ; type
 	db 45 ; catch rate
 	db 138 ; base exp
 	db NO_ITEM, NO_ITEM ; items
