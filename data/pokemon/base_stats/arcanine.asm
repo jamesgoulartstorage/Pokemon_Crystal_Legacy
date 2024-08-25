@@ -4,7 +4,7 @@
 	db 90, 70, 80, 115, 120, 80
 	;   hp  atk  def  spd  sat  sdf
 
-	db FIRE, PSYCHIC; FIRE ; type
+	db FIRE, PSYCHIC_TYPE; FIRE ; type
 	db 75 ; catch rate
 	db 213 ; base exp
 	db BURNT_BERRY, BURNT_BERRY ; items
