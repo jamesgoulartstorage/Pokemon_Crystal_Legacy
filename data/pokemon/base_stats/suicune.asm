@@ -1,9 +1,10 @@
 	db SUICUNE ; 245
 
-	db 100,  75, 115,  85,  90, 115
+	; db 100,  75, 115,  85,  90, 115
+	  db 100, 70, 115, 85, 95, 115
 	;   hp  atk  def  spd  sat  sdf
 
-	db WATER, WATER ; type
+	db WATER, GHOST; WATER ; type
 	db 3 ; catch rate
 	db 215 ; base exp
 	db NO_ITEM, NO_ITEM ; items
