@@ -1,9 +1,10 @@
 	db ENTEI ; 244
 
-	db 115, 90,  85, 100,  115,  75
+	; db 115, 90,  85, 100,  115,  75
+	  db 115, 70, 85, 100, 130, 80
 	;   hp  atk  def  spd  sat  sdf
 
-	db FIRE, FIRE ; type
+	db FIRE, GHOST; FIRE ; type
 	db 3 ; catch rate
 	db 217 ; base exp
 	db NO_ITEM, NO_ITEM ; items
