@@ -1,9 +1,10 @@
 	db MUK ; 089
 
-	db 105, 105,  75,  50,  65, 100
+	; db 105, 105,  75,  50,  65, 100
+	  db 105, 95, 75, 50, 75, 100
 	;   hp  atk  def  spd  sat  sdf
 
-	db POISON, POISON ; type
+	db POISON, GHOST; POISON ; type
 	db 75 ; catch rate
 	db 157 ; base exp
 	db NO_ITEM, NUGGET ; items
