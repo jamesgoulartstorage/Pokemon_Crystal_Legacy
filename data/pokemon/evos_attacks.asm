@@ -1038,7 +1038,6 @@ MachampEvosAttacks:
 	db 1, FOCUS_ENERGY
 	db 1, KARATE_CHOP
 	db 19, SEISMIC_TOSS
-	db 55, SUBMISSION
 	db 25, FORESIGHT
 	db 31, VITAL_THROW
 	; db 43, CROSS_CHOP
@@ -1091,9 +1090,10 @@ VictreebelEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP
 	db 1, GROWTH
-	db 1, WRAP
-	db 1, GROWTH
-	db 11, WRAP
+	; db 1, WRAP
+	; db 1, GROWTH
+	; db 11, WRAP
+	db 11, LEECH_SEED
 	db 15, SLEEP_POWDER
 	db 17, POISONPOWDER
 	db 19, STUN_SPORE
@@ -1102,7 +1102,10 @@ VictreebelEvosAttacks:
 	db 30, SLUDGE
 	db 33, SWEET_SCENT
 	db 41, SLUDGE_BOMB
-	db 45, SLAM
+	; db 45, SLAM
+	db 45, GIGA_DRAIN;
+	db 50, CRUNCH;
+	db 55, CROSS_CHOP;
 	db 0 ; no more level-up moves
 
 TentacoolEvosAttacks:
