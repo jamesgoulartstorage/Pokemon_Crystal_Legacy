@@ -353,7 +353,8 @@ EkansEvosAttacks:
 
 ArbokEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WRAP
+	; db 1, WRAP
+	db 1, CONSTRICT
 	; db 1, LEER
 	db 1, HAZE;
 	db 1, POISON_STING
@@ -434,7 +435,7 @@ SandslashEvosAttacks:
 	db 35, SANDSTORM
 	db 40, EARTHQUAKE
 	db 48, SPIKE_CANNON
-	db 56, SKULL_BASH
+	db 56, SKULL_BASH;
 	db 0 ; no more level-up moves
 
 NidoranFEvosAttacks:
@@ -536,15 +537,17 @@ ClefairyEvosAttacks:
 ClefableEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 1, GROWL
+	; db 1, GROWL
 	db 6, ENCORE
 	db 8, SING
 	db 13, DOUBLESLAP
 	db 19, MINIMIZE
-	db 26, DEFENSE_CURL
+	; db 26, DEFENSE_CURL
+	db 26, PSYBEAM;
 	db 30, METRONOME
 	db 35, BODY_SLAM
 	db 43, MOONLIGHT
+	db 48, FUTURE_SIGHT;
 	db 53, LIGHT_SCREEN
 	db 0 ; no more level-up moves
 
@@ -568,7 +571,7 @@ VulpixEvosAttacks:
 NinetalesEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, EMBER
-	db 1, TAIL_WHIP
+	; db 1, TAIL_WHIP
 	db 1, QUICK_ATTACK
 	db 1, ROAR
 	db 16, CONFUSE_RAY
@@ -578,7 +581,9 @@ NinetalesEvosAttacks:
 	db 37, SHADOW_BALL
 	db 40, SUNNY_DAY
 	db 45, FIRE_SPIN
-	db 55, FIRE_BLAST
+	; db 55, FIRE_BLAST
+	db 50, FIRE_BLAST;
+	db 55, GUILLOTINE;
 	db 0 ; no more level-up moves
 
 JigglypuffEvosAttacks:
@@ -602,7 +607,7 @@ WigglytuffEvosAttacks:
 	db 1, SING
 	db 1, POUND
 	db 6, DEFENSE_CURL
-	db 9, CHARM
+	; db 9, CHARM
 	db 14, DISABLE
 	db 16, DOUBLESLAP
 	db 19, ROLLOUT
@@ -610,6 +615,7 @@ WigglytuffEvosAttacks:
 	db 29, REST
 	db 34, BODY_SLAM
 	db 39, DOUBLE_EDGE
+	db 44, PSYCHIC
 	db 0 ; no more level-up moves
 
 ZubatEvosAttacks:
@@ -706,7 +712,7 @@ ParasEvosAttacks:
 ParasectEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, ABSORB
+	; db 1, ABSORB
 	db 1, STUN_SPORE
 	db 13, POISONPOWDER
 	db 16, MEGA_DRAIN
@@ -715,6 +721,7 @@ ParasectEvosAttacks:
 	db 31, SLASH
 	db 36, GROWTH
 	db 40, GIGA_DRAIN
+	db 44, GUILLOTINE;
 	db 0 ; no more level-up moves
 
 VenonatEvosAttacks:
