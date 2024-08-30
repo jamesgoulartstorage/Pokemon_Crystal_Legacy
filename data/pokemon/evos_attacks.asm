@@ -774,14 +774,17 @@ DiglettEvosAttacks:
 DugtrioEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TRI_ATTACK
-	db 1, SCRATCH
-	db 1, GROWL
+	; db 1, SCRATCH
+	; db 1, GROWL
 	db 1, MAGNITUDE
 	db 17, DIG
 	db 25, SAND_ATTACK
 	db 33, SLASH
 	db 41, EARTHQUAKE
-	db 49, FISSURE
+	; db 49, FISSURE
+	db 49, ROCK_SLIDE;
+	db 54, SKULL_BASH;
+	db 59, FISSURE;
 	db 0 ; no more level-up moves
 
 MeowthEvosAttacks:
@@ -802,15 +805,19 @@ PersianEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
-	db 1, BITE
+	;db 1, BITE
 	db 11, BITE
 	db 20, PAY_DAY
 	db 28, FAINT_ATTACK
 	db 33, SLASH
-	db 38, SCREECH
-	db 41, FURY_SWIPES
-	db 46, DOUBLE_EDGE
+	; db 38, SCREECH
+	; db 41, FURY_SWIPES
+	db 38, METAL_CLAW;
+	db 41, BEAT_UP;
+	; db 46, DOUBLE_EDGE
+	db 46, SKY_ATTACK;
 	db 50, HYPER_BEAM
+	db 55, EXTREMESPEED;
 	db 0 ; no more level-up moves
 
 PsyduckEvosAttacks:
@@ -861,8 +868,8 @@ MankeyEvosAttacks:
 
 PrimeapeEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
+	; db 1, SCRATCH
+	; db 1, LEER
 	db 1, LOW_KICK
 	db 1, RAGE
 	db 15, KARATE_CHOP
@@ -871,8 +878,11 @@ PrimeapeEvosAttacks:
 	db 28, RAGE
 	db 33, SEISMIC_TOSS
 	db 39, CROSS_CHOP
-	db 45, SCREECH
+	; db 45, SCREECH
+	db 45, BEAT_UP;
 	db 51, THRASH
+	db 56, MEGA_PUNCH;
+	db 60, EXTREMESPEED;
 	db 0 ; no more level-up moves
 
 GrowlitheEvosAttacks:
@@ -891,13 +901,15 @@ GrowlitheEvosAttacks:
 
 ArcanineEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, AGILITY
+	; db 1, AGILITY
 	db 1, FLAME_WHEEL
-	db 1, TAKE_DOWN
+	; db 1, TAKE_DOWN
 	db 1, BITE
 	db 20, ROAR
 	db 45, FLAMETHROWER
 	db 50, EXTREMESPEED
+	db 55, FUTURE_SIGHT;
+	db 60, SOLARBEAM;
 	db 0 ; no more level-up moves
 
 PoliwagEvosAttacks:
@@ -933,8 +945,8 @@ PoliwhirlEvosAttacks:
 
 PoliwrathEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BUBBLE
-	db 1, MIST
+	; db 1, BUBBLE
+	; db 1, MIST
 	db 1, HYPNOSIS
 	db 1, SUBMISSION
 	db 10, WATER_GUN
@@ -945,7 +957,10 @@ PoliwrathEvosAttacks:
 	db 35, SUBMISSION
 	db 43, BELLY_DRUM
 	db 48, HYDRO_PUMP
-	db 51, MIND_READER
+	; db 51, MIND_READER
+	db 51, BEAT_UP;
+	db 56, MEGA_PUNCH;
+	db 60, FUTURE_SIGHT;
 	db 0 ; no more level-up moves
 
 AbraEvosAttacks:
@@ -974,13 +989,16 @@ AlakazamEvosAttacks:
 	db 1, TELEPORT
 	db 1, KINESIS
 	db 1, CONFUSION
-	db 16, CONFUSION
+	; db 16, CONFUSION
 	db 18, DISABLE
 	db 21, PSYBEAM
 	db 26, RECOVER
-	db 31, FUTURE_SIGHT
+	; db 31, FUTURE_SIGHT
+	db 31, THUNDERBOLT;
 	db 38, PSYCHIC_M
-	db 45, REFLECT
+	; db 45, REFLECT
+	db 45, THUNDER;
+	db 51, FUTURE_SIGHT;
 	db 0 ; no more level-up moves
 
 MachopEvosAttacks:
@@ -1015,16 +1033,22 @@ MachokeEvosAttacks:
 
 MachampEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LOW_KICK
-	db 1, LEER
+	; db 1, LOW_KICK
+	; db 1, LEER
 	db 1, FOCUS_ENERGY
 	db 1, KARATE_CHOP
 	db 19, SEISMIC_TOSS
+	db 55, SUBMISSION
 	db 25, FORESIGHT
 	db 31, VITAL_THROW
-	db 43, CROSS_CHOP
-	db 50, SCARY_FACE
-	db 55, SUBMISSION
+	; db 43, CROSS_CHOP
+	db 37, SUBMISSION;
+	; db 50, SCARY_FACE
+	db 43, CROSS_CHOP;
+	; db 55, SUBMISSION
+	db 49, BEAT_UP;
+	db 54, MEGA_PUNCH;
+	db 60, CRABHAMMER;
 	db 0 ; no more level-up moves
 
 BellsproutEvosAttacks:
