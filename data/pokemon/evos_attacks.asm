@@ -292,15 +292,19 @@ RattataEvosAttacks:
 
 RaticateEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, TAIL_WHIP
+	; db 1, TACKLE
+	; db 1, TAIL_WHIP
+	db 1, FOCUS_ENERGY
 	db 1, QUICK_ATTACK
 	db 13, HYPER_FANG
 	db 20, SCARY_FACE
-	db 25, FOCUS_ENERGY
+	; db 25, FOCUS_ENERGY
+	db 25, CRUNCH
 	db 30, PURSUIT
 	db 40, SUPER_FANG
-	db 45, CRUNCH
+	; db 45, CRUNCH
+	db 45, THRASH
+	db 50, SKULL_BASH
 	db 0 ; no more level-up moves
 
 SpearowEvosAttacks:
@@ -319,13 +323,17 @@ SpearowEvosAttacks:
 FearowEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
-	db 1, GROWL
-	db 1, LEER
-	db 1, FURY_ATTACK
+	; db 1, GROWL
+	; db 1, LEER
+	; db 1, FURY_ATTACK
+	db 1, AGILITY;
 	db 15, PURSUIT
 	db 31, MIRROR_MOVE
 	db 37, DRILL_PECK
-	db 43, AGILITY
+	; db 43, AGILITY
+	db 43, THRASH;
+	db 48, SKY ATTACK;
+	db 52, EGG BOMB;
 	db 0 ; no more level-up moves
 
 EkansEvosAttacks:
@@ -346,16 +354,19 @@ EkansEvosAttacks:
 ArbokEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
-	db 1, LEER
+	; db 1, LEER
+	db 1, HAZE;
 	db 1, POISON_STING
-	db 1, BITE
+	; db 1, BITE
+	db 1, CRUNCH;
 	db 18, ACID
 	db 22, SUBSTITUTE
 	db 25, GLARE
 	db 27, SLUDGE
 	db 30, SCREECH
 	db 36, SLUDGE_BOMB
-	db 43, HAZE
+	; db 43, HAZE
+	db 43, SKULL BASH;
 	db 0 ; no more level-up moves
 
 PikachuEvosAttacks:
@@ -376,17 +387,20 @@ PikachuEvosAttacks:
 
 RaichuEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
-	db 1, GROWL
+	; db 1, THUNDERSHOCK
+	; db 1, GROWL
 	db 1, TAIL_WHIP
 	db 1, THUNDER_WAVE
+	db 5, SPARK;
 	db 11, QUICK_ATTACK
 	db 15, DOUBLE_TEAM
 	db 20, SLAM
 	db 26, THUNDERBOLT
 	db 33, AGILITY
 	db 41, THUNDER
-	db 50, LIGHT_SCREEN
+	; db 50, LIGHT_SCREEN
+	db 50, FUTURE_SIGHT;
+	db 58, PETAL_DANCE;
 	db 0 ; no more level-up moves
 
 SandshrewEvosAttacks:
@@ -407,7 +421,7 @@ SandshrewEvosAttacks:
 
 SandslashEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	; db 1, SCRATCH
 	db 1, FURY_SWIPES
 	db 6, DEFENSE_CURL
 	db 9, MUD_SLAP
@@ -420,6 +434,7 @@ SandslashEvosAttacks:
 	db 35, SANDSTORM
 	db 40, EARTHQUAKE
 	db 48, SPIKE_CANNON
+	db 56, SKULL_BASH
 	db 0 ; no more level-up moves
 
 NidoranFEvosAttacks:
@@ -450,13 +465,16 @@ NidorinaEvosAttacks:
 
 NidoqueenEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, SCRATCH
+	; db 1, TACKLE
+	; db 1, SCRATCH
 	db 1, DOUBLE_KICK
-	db 1, TAIL_WHIP
+	; db 1, TAIL_WHIP
 	db 23, BODY_SLAM
 	db 27, MAGNITUDE
 	db 36, SLUDGE_BOMB
+	db 42, MEGA_PUNCH;
+	db 48, EARTHQUAKE;
+	db 56, SKULL_BASH;
 	db 0 ; no more level-up moves
 
 NidoranMEvosAttacks:
@@ -487,13 +505,16 @@ NidorinoEvosAttacks:
 
 NidokingEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, HORN_ATTACK
-	db 1, DOUBLE_KICK
+	; db 1, TACKLE
+	; db 1, HORN_ATTACK
+	; db 1, DOUBLE_KICK
 	db 1, POISON_STING
 	db 23, THRASH
 	db 27, MAGNITUDE
 	db 36, SLUDGE_BOMB
+	db 42, MEGA_PUNCH;
+	db 48, EARTHQUAKE;
+	db 56, SKULL_BASH;
 	db 0 ; no more level-up moves
 
 ClefairyEvosAttacks:
