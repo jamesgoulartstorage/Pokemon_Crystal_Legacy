@@ -1172,7 +1172,7 @@ GravelerEvosAttacks:
 
 GolemEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	; db 1, TACKLE
 	db 1, DEFENSE_CURL
 	db 1, ROCK_THROW
 	db 1, MAGNITUDE
@@ -1182,6 +1182,7 @@ GolemEvosAttacks:
 	db 40, ROCK_SLIDE
 	db 45, EARTHQUAKE
 	db 48, EXPLOSION
+	db 54, SKULL_BASH;
 	db 0 ; no more level-up moves
 
 PonytaEvosAttacks:
@@ -1204,18 +1205,21 @@ PonytaEvosAttacks:
 RapidashEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
-	db 1, TAIL_WHIP
+	; db 1, GROWL
+	; db 1, TAIL_WHIP
 	db 1, EMBER
 	db 17, STOMP
 	db 20, FLAME_WHEEL
-	db 25, DOUBLE_KICK
+	; db 25, DOUBLE_KICK
+	db 25, TRIPLE_KICK;
 	db 33, TAKE_DOWN
 	db 36, FLAMETHROWER
 	db 39, FIRE_SPIN
 	db 40, FURY_ATTACK
 	db 45, AGILITY
 	db 51, FIRE_BLAST
+	db 55, MEGA_KICK;
+	db 58, MEGAHORN;
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
@@ -1237,16 +1241,18 @@ SlowpokeEvosAttacks:
 SlowbroEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CURSE
-	db 1, TACKLE
-	db 1, GROWL
+	; db 1, TACKLE
+	; db 1, GROWL
 	db 1, WATER_GUN
 	db 18, CONFUSION
 	db 24, DISABLE
 	db 29, PSYBEAM
+	db 30, SURF;
 	db 34, HEADBUTT
 	db 37, WITHDRAW
 	db 41, AMNESIA
 	db 45, PSYCHIC_M
+	db 49, IRON_TAIL;
 	db 0 ; no more level-up moves
 
 MagnemiteEvosAttacks:
@@ -1267,30 +1273,38 @@ MagnemiteEvosAttacks:
 
 MagnetonEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
+	; db 1, TACKLE
 	db 1, THUNDERSHOCK
-	db 1, SUPERSONIC
+	; db 1, SUPERSONIC
 	db 1, SONICBOOM
+	db 15, STEEL_WING;
 	db 21, THUNDER_WAVE
 	db 25, SPARK
 	db 33, TRI_ATTACK
 	db 37, THUNDERBOLT
 	db 40, LOCK_ON
-	db 43, SCREECH
+	; db 43, SCREECH
+	db 43, BONEMERANG;
 	db 51, ZAP_CANNON
+	db 56, EXPLOSION;
 	db 0 ; no more level-up moves
 
 FarfetchDEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
-	db 7, SAND_ATTACK
-	db 13, LEER
-	db 19, FURY_ATTACK
+	; db 7, SAND_ATTACK
+	db 7, CUT;
+	; db 13, LEER
+	db 16, KARATE_CHOP;
+	;db 19, FURY_ATTACK
 	db 25, SWORDS_DANCE
-	db 31, AGILITY
+	; db 31, AGILITY
+	db 31, DRILL_PECK;
 	db 35, SLASH
-	db 40, FALSE_SWIPE
+	; db 40, FALSE_SWIPE
+	db 40, CROSS_CHOP;
 	db 45, BATON_PASS
+	db 50, BEAT_UP;
 	db 0 ; no more level-up moves
 
 DoduoEvosAttacks:
@@ -2388,30 +2402,40 @@ CyndaquilEvosAttacks:
 QuilavaEvosAttacks:
 	db EVOLVE_LEVEL, 36, TYPHLOSION
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, LEER
-	db 1, SMOKESCREEN
+	; db 1, TACKLE
+	; db 1, LEER
+	; db 1, SMOKESCREEN
 	db 1, EMBER
-	db 16, DEFENSE_CURL
+	; db 16, DEFENSE_CURL
+	db 16, SAND_ATTACK;
 	db 21, QUICK_ATTACK
 	db 24, FLAME_WHEEL
-	db 32, SWIFT
+	db 32, MAGNITUDE;
+	db 34, DIG;
+	; db 32, SWIFT
 	db 38, FLAMETHROWER
+	db 45, EARTHQUAKE;
 	db 50, FIRE_BLAST
+	db 55, SKULL_BASH;
 	db 0 ; no more level-up moves
 
 TyphlosionEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, LEER
-	db 1, SMOKESCREEN
+	; db 1, TACKLE
+	; db 1, LEER
+	; db 1, SMOKESCREEN
 	db 1, EMBER
-	db 16, DEFENSE_CURL
+	; db 16, DEFENSE_CURL
+	db 16, SAND_ATTACK;
 	db 21, QUICK_ATTACK
 	db 24, FLAME_WHEEL
-	db 32, SWIFT
+	db 32, MAGNITUDE;
+	db 34, DIG;
+	; db 32, SWIFT
 	db 38, FLAMETHROWER
+	db 45, EARTHQUAKE;
 	db 50, FIRE_BLAST
+	db 55, SKULL_BASH;
 	db 0 ; no more level-up moves
 
 TotodileEvosAttacks:
