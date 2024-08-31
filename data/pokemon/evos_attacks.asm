@@ -332,8 +332,8 @@ FearowEvosAttacks:
 	db 37, DRILL_PECK
 	; db 43, AGILITY
 	db 43, THRASH;
-	db 48, SKY ATTACK;
-	db 52, EGG BOMB;
+	db 48, SKY_ATTACK;
+	db 52, EGG_BOMB;
 	db 0 ; no more level-up moves
 
 EkansEvosAttacks:
@@ -367,7 +367,7 @@ ArbokEvosAttacks:
 	db 30, SCREECH
 	db 36, SLUDGE_BOMB
 	; db 43, HAZE
-	db 43, SKULL BASH;
+	db 43, SKULL_BASH;
 	db 0 ; no more level-up moves
 
 PikachuEvosAttacks:
