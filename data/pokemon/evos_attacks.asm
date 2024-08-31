@@ -615,7 +615,7 @@ WigglytuffEvosAttacks:
 	db 29, REST
 	db 34, BODY_SLAM
 	db 39, DOUBLE_EDGE
-	db 44, PSYCHIC
+	db 44, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 ZubatEvosAttacks:
