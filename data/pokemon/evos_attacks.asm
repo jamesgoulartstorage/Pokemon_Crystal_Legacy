@@ -2522,15 +2522,20 @@ HoothootEvosAttacks:
 	db 6, PECK
 	db 10, FORESIGHT
 	db 14, HYPNOSIS
-	db 20, PSYBEAM
+	; db 20, PSYBEAM
+	db 20, PURSUIT;
 	db 24, WING_ATTACK
-	db 28, REFLECT
-	db 28, LIGHT_SCREEN
+	; db 28, REFLECT
+	; db 28, LIGHT_SCREEN
+	db 28, THIEF;
 	db 32, MIRROR_COAT
+	db 32, DRILL_PECK;
 	db 36, TAKE_DOWN
-	db 40, PSYCHIC_M
+	; db 40, PSYCHIC_M
 	db 45, DREAM_EATER
-	db 50, FUTURE_SIGHT
+	; db 50, FUTURE_SIGHT
+	db 50, SKY_ATTACK;
+	db 55, EGG_BOMB;
 	db 0 ; no more level-up moves
 
 NoctowlEvosAttacks:
@@ -2540,15 +2545,20 @@ NoctowlEvosAttacks:
 	db 1, PECK
 	db 1, FORESIGHT
 	db 14, HYPNOSIS
-	db 20, PSYBEAM
+	; db 20, PSYBEAM
+	db 20, PURSUIT;
 	db 24, WING_ATTACK
-	db 28, REFLECT
-	db 28, LIGHT_SCREEN
+	; db 28, REFLECT
+	; db 28, LIGHT_SCREEN
+	db 28, THIEF;
 	db 32, MIRROR_COAT
+	db 32, DRILL_PECK;
 	db 36, TAKE_DOWN
-	db 40, PSYCHIC_M
+	; db 40, PSYCHIC_M
 	db 45, DREAM_EATER
-	db 50, FUTURE_SIGHT
+	; db 50, FUTURE_SIGHT
+	db 50, SKY_ATTACK;
+	db 55, EGG_BOMB;
 	db 0 ; no more level-up moves
 
 LedybaEvosAttacks:
