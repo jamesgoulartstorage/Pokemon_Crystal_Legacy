@@ -2723,7 +2723,7 @@ TogepiEvosAttacks:
 	; db 27, WING_ATTACK
 	db 27, RAZOR_WIND;
 	db 31, SAFEGUARD
-	db 38, SPYCHIC_M;
+	db 38, PSYCHIC_M;
 	db 43, AEROBLAST;
 	; db 38, DOUBLE_EDGE
 	; db 43, TRI_ATTACK
@@ -2742,7 +2742,7 @@ TogeticEvosAttacks:
 	; db 27, WING_ATTACK
 	db 27, RAZOR_WIND;
 	db 31, SAFEGUARD
-	db 38, SPYCHIC_M;
+	db 38, PSYCHIC_M;
 	db 43, AEROBLAST;
 	; db 38, DOUBLE_EDGE
 	; db 43, TRI_ATTACK
