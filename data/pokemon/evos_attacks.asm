@@ -2711,28 +2711,41 @@ IgglybuffEvosAttacks:
 TogepiEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, TOGETIC
 	db 0 ; no more evolutions
-	db 1, GROWL
+	; db 1, GROWL
+	db 1, METRONOME;
 	db 1, CHARM
-	db 5, METRONOME
-	db 11, RETURN
-	db 18, SWEET_KISS
+	; db 5, METRONOME
+	; db 11, RETURN
+	db 7, CONFUSION;
+	; db 18, SWEET_KISS
+	db 18, PSYBEAM;
 	db 25, ENCORE
+	; db 27, WING_ATTACK
+	db 27, RAZOR_WIND;
 	db 31, SAFEGUARD
-	db 38, DOUBLE_EDGE
-	db 43, TRI_ATTACK
+	db 38, SPYCHIC_M;
+	db 43, AEROBLAST;
+	; db 38, DOUBLE_EDGE
+	; db 43, TRI_ATTACK
 	db 0 ; no more level-up moves
 
 TogeticEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, GROWL
+	; db 1, GROWL
+	db 1, METRONOME;
 	db 1, CHARM
-	db 5, METRONOME
-	db 18, SWEET_KISS
+	; db 5, METRONOME
+	db 7, CONFUSION;
+	; db 18, SWEET_KISS
+	db 18, PSYBEAM;
 	db 25, ENCORE
-	db 27, WING_ATTACK
+	; db 27, WING_ATTACK
+	db 27, RAZOR_WIND;
 	db 31, SAFEGUARD
-	db 38, DOUBLE_EDGE
-	db 43, TRI_ATTACK
+	db 38, SPYCHIC_M;
+	db 43, AEROBLAST;
+	; db 38, DOUBLE_EDGE
+	; db 43, TRI_ATTACK
 	db 0 ; no more level-up moves
 
 NatuEvosAttacks:
@@ -2795,13 +2808,15 @@ FlaaffyEvosAttacks:
 AmpharosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
-	db 1, THUNDERSHOCK
+	; db 1, GROWL
+	; db 1, THUNDERSHOCK
 	db 1, THUNDER_WAVE
 	db 27, COTTON_SPORE
 	db 30, THUNDERPUNCH
+	db 34, DRAGONBREATH;
 	db 39, LIGHT_SCREEN
 	db 47, THUNDERBOLT
+	db 50, OUTRAGE;
 	db 55, THUNDER
 	db 0 ; no more level-up moves
 
@@ -2853,10 +2868,14 @@ SudowoodoEvosAttacks:
 	db 1, MIMIC
 	db 10, FLAIL
 	db 19, LOW_KICK
-	db 28, ROCK_SLIDE
-	db 31, COUNTER
-	db 36, FAINT_ATTACK
-	db 46, THRASH
+	; db 28, ROCK_SLIDE
+	db 28, VINE_WHIP
+	; db 31, COUNTER
+	db 31, ROCK_SLIDE
+	; db 36, FAINT_ATTACK
+	db 36, CROSS_CHOP
+	; db 46, THRASH
+	db 46, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 PolitoedEvosAttacks:
@@ -2871,10 +2890,12 @@ PolitoedEvosAttacks:
 	db 25, RAIN_DANCE
 	db 31, BODY_SLAM
 	db 34, PERISH_SONG
-	db 36, ICE_BEAM
+	; db 36, ICE_BEAM
+	db 36, GIGA_DRAIN;
 	db 40, LIGHT_SCREEN
 	db 45, HYDRO_PUMP
-	db 51, SWAGGER
+	; db 51, SWAGGER
+	db 51, PETAL_DANCE;
 	db 0 ; no more level-up moves
 
 HoppipEvosAttacks:
@@ -2979,13 +3000,18 @@ YanmaEvosAttacks:
 	db 1, FORESIGHT
 	db 7, QUICK_ATTACK
 	db 13, DOUBLE_TEAM
-	db 19, WING_ATTACK
+	; db 19, WING_ATTACK
+	db 19, RAZOR_WIND;
 	db 25, TWINEEDLE
-	db 30, TWISTER
 	db 28, DETECT
+	; db 30, TWISTER
+	db 30, ANCIENTPOWER
 	db 31, SUPERSONIC
-	db 37, SONICBOOM
-	db 43, SCREECH
+	; db 37, SONICBOOM
+	db 37, SKY_ATTACK;
+	; db 43, SCREECH
+	db 43, MEGAHORN;
+	
 	db 0 ; no more level-up moves
 
 WooperEvosAttacks:
