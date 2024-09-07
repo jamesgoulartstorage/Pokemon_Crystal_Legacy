@@ -1310,7 +1310,7 @@ FarfetchDEvosAttacks:
 DoduoEvosAttacks:
 	db EVOLVE_LEVEL, 31, DODRIO
 	db 0 ; no more evolutions
-	db 1, GROWL
+	; db 1, GROWL
 	db 1, PECK
 	db 9, PURSUIT
 	db 13, FURY_ATTACK
@@ -1324,16 +1324,23 @@ DoduoEvosAttacks:
 DodrioEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
-	db 1, GROWL
+	; db 1, GROWL
 	db 1, PURSUIT
 	db 1, FURY_ATTACK
-	db 9, PURSUIT
+	; db 9, PURSUIT
+	; db 13, FURY_ATTACK
 	db 13, FURY_ATTACK
-	db 21, RAGE
+	db 17, TRIPLE_KICK;
+	; db 21, RAGE
+	db 21, AGILITY;
 	db 27, TRI_ATTACK
+	db 33, THRASH;
 	db 38, DRILL_PECK
-	db 44, AGILITY
-	db 56, DOUBLE_EDGE
+	db 44, MEGA_KICK;
+	; db 44, AGILITY
+	db 50, HIGH_JUMP_KICK;
+	; db 56, DOUBLE_EDGE
+	db 56, SKY_ATTACK;
 	db 0 ; no more level-up moves
 
 SeelEvosAttacks:
@@ -1626,17 +1633,19 @@ CuboneEvosAttacks:
 MarowakEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
-	db 1, TAIL_WHIP
+	; db 1, GROWL
+	; db 1, TAIL_WHIP
 	db 1, BONE_CLUB
 	db 13, HEADBUTT
 	db 15, FALSE_SWIPE
-	db 17, LEER
+	; db 17, LEER
+	db 17, MAGNITUDE;
 	db 21, FOCUS_ENERGY
 	db 25, BONEMERANG
 	db 32, RAGE
 	db 37, THRASH
 	db 41, BONE_RUSH
+	db 46, EARTHQUAKE;
 	db 0 ; no more level-up moves
 
 HitmonleeEvosAttacks:
@@ -3358,16 +3367,24 @@ TeddiursaEvosAttacks:
 
 UrsaringEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, LEER
-	db 1, LICK
+	; db 1, SCRATCH
+	; db 1, LEER
+	; db 1, LICK
 	db 1, FURY_SWIPES
-	db 22, FAINT_ATTACK
-	db 29, REST
-	db 34, SNORE
-	db 39, SLASH
+	; db 22, FAINT_ATTACK
+	db 22, METAL_CLAW;
+	; db 29, REST
+	db 25, REST;
+	; db 34, SNORE
+	db 25, SNORE;
+	db 29, SLASH;
+	; db 39, SLASH
+	db 34, BEAT_UP;
+	db 39, THRASH;
 	db 45, SUBMISSION
-	db 50, THRASH
+	; db 50, THRASH
+	db 50, SKULL_BASH;
+	db 55, HYPER_BEAM;
 	db 0 ; no more level-up moves
 
 SlugmaEvosAttacks:
@@ -3741,7 +3758,8 @@ EnteiEvosAttacks:
 	db 31, FLAMETHROWER
 	db 41, CRUNCH
 	db 51, LIGHT_SCREEN
-	db 61, FIRE_BLAST
+	; db 61, FIRE_BLAST
+	db 61, SACRED_FIRE;
 	db 71, SWAGGER
 	db 0 ; no more level-up moves
 
@@ -3847,5 +3865,6 @@ CelebiEvosAttacks:
 	db 45, HEAL_BELL
 	db 50, BATON_PASS
 	db 55, FUTURE_SIGHT
-	db 60, PERISH_SONG
+	; db 60, PERISH_SONG
+	db 60, PETAL_DANCE;
 	db 0 ; no more level-up moves
