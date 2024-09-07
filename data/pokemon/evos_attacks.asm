@@ -1338,7 +1338,7 @@ DodrioEvosAttacks:
 	db 38, DRILL_PECK
 	db 44, MEGA_KICK;
 	; db 44, AGILITY
-	db 50, HIGH_JUMP_KICK;
+	db 50, HI_JUMP_KICK;
 	; db 56, DOUBLE_EDGE
 	db 56, SKY_ATTACK;
 	db 0 ; no more level-up moves
