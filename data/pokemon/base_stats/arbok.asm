@@ -7,7 +7,8 @@
 	db POISON, DARK; POISON ; type
 	db 90 ; catch rate
 	db 147 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db POISON_BARB, HP_UP;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
