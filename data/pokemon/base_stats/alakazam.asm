@@ -7,7 +7,8 @@
 	db PSYCHIC_TYPE, ELECTRIC; PSYCHIC_TYPE ; type
 	db 50 ; catch rate
 	db 186 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db TWISTEDSPOON, UP_GRADE;
 	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
