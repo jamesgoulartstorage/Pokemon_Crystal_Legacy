@@ -7,7 +7,8 @@
 	db WATER, NORMAL; WATER ; type
 	db 75 ; catch rate
 	db 153 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db POLKADOT_BOW, MYSTIC_WATER;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
