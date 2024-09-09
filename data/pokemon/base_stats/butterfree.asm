@@ -6,7 +6,8 @@
 	db BUG, FLYING ; type
 	db 45 ; catch rate
 	db 160 ; base exp
-	db NO_ITEM, SILVERPOWDER ; items
+	; db NO_ITEM, SILVERPOWDER ; items
+	db PRZCUREBERRY, SILVERPOWDER;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 4 ; step cycles to hatch
