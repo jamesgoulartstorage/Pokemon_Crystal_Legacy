@@ -7,7 +7,8 @@
 	db BUG, POISON ; type
 	db 90 ; catch rate
 	db 134 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db POISON_BARB, SILVERPOWDER;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 4 ; step cycles to hatch
