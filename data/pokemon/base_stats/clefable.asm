@@ -6,7 +6,8 @@
 	db NORMAL, PSYCHIC_TYPE; NORMAL ; type
 	db 25 ; catch rate
 	db 129 ; base exp
-	db MYSTERYBERRY, MOON_STONE ; items
+	; db MYSTERYBERRY, MOON_STONE ; items
+	db PINK_BOW, MOON_STONE;
 	db GENDER_F75 ; gender ratio
 	db 100 ; unknown 1
 	db 2 ; step cycles to hatch
