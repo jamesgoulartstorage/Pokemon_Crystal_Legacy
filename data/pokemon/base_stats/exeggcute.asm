@@ -6,7 +6,8 @@
 	db GRASS, PSYCHIC_TYPE ; type
 	db 90 ; catch rate
 	db 98 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db EGG_TICKET, LUCKY_EGG;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
