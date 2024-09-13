@@ -7,7 +7,8 @@
 	db NORMAL, GROUND; NORMAL ; type
 	db 90 ; catch rate
 	db 116 ; base exp
-	db BERRY, GOLD_BERRY ; items
+	; db BERRY, GOLD_BERRY ; items
+	db GOLD_BERRY, QUICK_CLAW;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 4 ; step cycles to hatch
