@@ -1,12 +1,14 @@
 	db ELEKID ; 239
 
-	db  45,  63,  37,  95,  65,  55
+	; db  45,  63,  37,  95,  65,  55
+	db  45,  43,  37,  95,  85,  55
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type
 	db 45 ; catch rate
 	db 106 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db PRZCUREBERRY, MAGNET;
 	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1
 	db 6 ; step cycles to hatch
