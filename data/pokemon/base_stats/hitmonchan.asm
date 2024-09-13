@@ -7,7 +7,8 @@
 	db FIGHTING, STEEL; FIGHTING ; type
 	db 45 ; catch rate
 	db 140 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db LUCKY_PUNCH, BLACKBELT_I;
 	db GENDER_F0 ; gender ratio
 	db 100 ; unknown 1
 	db 6 ; step cycles to hatch
