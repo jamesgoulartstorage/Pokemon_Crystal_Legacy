@@ -7,7 +7,8 @@
 	db PSYCHIC_TYPE, GHOST; PSYCHIC_TYPE ; type
 	db 190 ; catch rate
 	db 102 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db MINT_BERRY, CLEANSE_TAG;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
