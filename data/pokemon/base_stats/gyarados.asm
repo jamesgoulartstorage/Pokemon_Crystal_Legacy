@@ -3,10 +3,11 @@
 	db  95, 125,  79,  81, 60, 100
 	;   hp  atk  def  spd  sat  sdf
 
-	db WATER, FLYING ; type
+	db WATER, DARK;FLYING ; type
 	db 45 ; catch rate
 	db 214 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db BERSERK_GENE, DRAGON_FANG;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 1 ; step cycles to hatch
