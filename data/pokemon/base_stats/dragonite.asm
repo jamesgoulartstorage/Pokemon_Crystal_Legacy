@@ -7,7 +7,8 @@
 	db DRAGON, FLYING ; type
 	db 45 ; catch rate
 	db 218 ; base exp
-	db NO_ITEM, DRAGON_SCALE ; items
+	; db NO_ITEM, DRAGON_SCALE ; items
+	db DRAGON_SCALE, DRAGON_FANG;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 10 ; step cycles to hatch
