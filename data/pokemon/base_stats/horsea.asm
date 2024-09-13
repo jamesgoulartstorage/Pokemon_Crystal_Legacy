@@ -7,7 +7,8 @@
 	db WATER, WATER ; type
 	db 225 ; catch rate
 	db 83 ; base exp
-	db NO_ITEM, DRAGON_SCALE ; items
+	; db NO_ITEM, DRAGON_SCALE ; items
+	db FRESH_WATER, DRAGON_SCALE;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
