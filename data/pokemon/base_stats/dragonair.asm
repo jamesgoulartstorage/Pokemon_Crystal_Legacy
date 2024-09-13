@@ -1,12 +1,13 @@
 	db DRAGONAIR ; 148
 
-	db  61,  84,  65,  70,  70,  70
+	db  61,  70,  65,  70,  84,  70
 	;   hp  atk  def  spd  sat  sdf
 
-	db DRAGON, DRAGON ; type
+	db DRAGON, WATER; DRAGON ; type
 	db 45 ; catch rate
 	db 144 ; base exp
-	db NO_ITEM, DRAGON_SCALE ; items
+	; db NO_ITEM, DRAGON_SCALE ; items
+	db MYSTIC_WATER, DRAGON_SCALE;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 10 ; step cycles to hatch
