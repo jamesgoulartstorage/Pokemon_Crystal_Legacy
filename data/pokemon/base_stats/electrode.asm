@@ -6,7 +6,8 @@
 	db ELECTRIC, GRASS; ELECTRIC ; type
 	db 60 ; catch rate
 	db 150 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db WHT_APRICORN, MAGNET;
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
