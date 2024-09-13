@@ -7,7 +7,8 @@
 	db FIGHTING, GROUND; FIGHTING ; type
 	db 45 ; catch rate
 	db 138 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db FOCUS_BAND, SOFT_SAND;
 	db GENDER_F0 ; gender ratio
 	db 100 ; unknown 1
 	db 6 ; step cycles to hatch
