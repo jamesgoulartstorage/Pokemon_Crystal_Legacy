@@ -7,7 +7,8 @@
 	db BUG, POISON ; type
 	db 255 ; catch rate
 	db 54 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db PSNCUREBERRY, POISON_BARB;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 4 ; step cycles to hatch
