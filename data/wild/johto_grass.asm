@@ -380,7 +380,7 @@ JohtoGrassWildMons:
 	; db 23, NATU
 	db 23, DITTO;
 	; db 20, SMEARGLE
-	db 20, MR_MIME;
+	db 20, MR__MIME;
 	db 22, SMEARGLE
 	; db 22, SMEARGLE
 	db 22, CHANSEY;
@@ -393,7 +393,7 @@ JohtoGrassWildMons:
 	; db 23, NATU
 	db 23, DITTO;
 	; db 20, SMEARGLE
-	db 20, MR_MIME;
+	db 20, MR__MIME;
 	db 22, SMEARGLE
 	; db 22, SMEARGLE
 	db 22, CHANSEY;
@@ -593,7 +593,7 @@ JohtoGrassWildMons:
 	; db 9,  METAPOD
 	; db 9,  METAPOD
 	db 9, PICHU;
-	db 8, IGGLYPUFF;
+	db 8, IGGLYBUFF;
 	db 9, TOGEPI;
 	; day
 	db 8,  CATERPIE
