@@ -7,7 +7,8 @@
 	db NORMAL, NORMAL ; type
 	db 255 ; catch rate
 	db 57 ; base exp
-	db NO_ITEM, BERRY ; items
+	; db NO_ITEM, BERRY ; items
+	db BERRY, GOLD_BERRY;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 4 ; step cycles to hatch
