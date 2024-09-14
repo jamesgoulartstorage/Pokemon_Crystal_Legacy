@@ -3,10 +3,11 @@
 	db  95,  70,  85,  30,  75,  85
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, GHOST; NORMAL ; type
+	db NORMAL, POISON; GHOST; NORMAL ; type
 	db 45 ; catch rate
 	db 127 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db PNK_APRICORN, BLK_APRICORN;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
