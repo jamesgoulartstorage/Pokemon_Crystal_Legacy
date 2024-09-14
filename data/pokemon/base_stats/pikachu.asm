@@ -7,7 +7,8 @@
 	db ELECTRIC, ELECTRIC ; type
 	db 190 ; catch rate
 	db 82 ; base exp
-	db NO_ITEM, BERRY ; items
+	; db NO_ITEM, BERRY ; items
+	db WHT_APRICORN, NORMAL_BOX;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 2 ; step cycles to hatch
