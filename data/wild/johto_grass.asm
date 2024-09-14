@@ -6,280 +6,280 @@ JohtoGrassWildMons:
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, RATTATA
-	db 4, RATTATA
-	db 5, RATTATA
-	db 3, RATTATA
-	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 4, PIDGEY	;RATTATA
+	db 5, LEDYBA	;RATTATA
+	db 3, BELLSPROUT;RATTATA
+	db 6, ABRA	;RATTATA
+	db 5, JIGGLYPUFF;RATTATA
+	db 7, MR__MIME	;RATTATA
 	; day
 	db 3, RATTATA
-	db 4, RATTATA
-	db 5, RATTATA
-	db 3, RATTATA
-	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 4, PIDGEY	;RATTATA
+	db 5, LEDYBA	;RATTATA
+	db 3, BELLSPROUT;RATTATA
+	db 6, ABRA	;RATTATA
+	db 5, JIGGLYPUFF;RATTATA
+	db 7, MR__MIME	;RATTATA
 	; nite
 	db 3, RATTATA
 	db 4, GASTLY
-	db 5, RATTATA
-	db 3, RATTATA
-	db 6, GASTLY
-	db 5, GASTLY
-	db 5, GASTLY
+	db 5, HOOTHOOT	;RATTATA
+	db 3, BELLSPROUT;RATTATA
+	db 6, DROWZEE	;GASTLY
+	db 5, MURKROW	;GASTLY
+	db 7, MISDREAVUS;GASTLY
 	end_grass_wildmons
 
 	def_grass_wildmons SPROUT_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, RATTATA
-	db 4, RATTATA
-	db 5, RATTATA
-	db 3, RATTATA
-	db 6, RATTATA
-	db 5, GASTLY
-	db 5, GASTLY
+	db 4, PIDGEY	;RATTATA
+	db 5, LEDYBA	;RATTATA
+	db 3, BELLSPROUT;RATTATA
+	db 6, ABRA	;RATTATA
+	db 5, JIGGLYPUFF;RATTATA
+	db 7, MR__MIME	;RATTATA
 	; day
 	db 3, RATTATA
-	db 4, RATTATA
-	db 5, RATTATA
-	db 3, RATTATA
-	db 6, GASTLY
-	db 5, GASTLY
-	db 5, GASTLY
+	db 4, PIDGEY	;RATTATA
+	db 5, LEDYBA	;RATTATA
+	db 3, BELLSPROUT;RATTATA
+	db 6, ABRA	;RATTATA
+	db 5, JIGGLYPUFF;RATTATA
+	db 7, MR__MIME	;RATTATA
 	; nite
 	db 3, RATTATA
 	db 4, GASTLY
-	db 5, RATTATA
-	db 3, RATTATA
-	db 6, GASTLY
-	db 5, GASTLY
-	db 5, GASTLY
+	db 5, HOOTHOOT	;RATTATA
+	db 3, BELLSPROUT;RATTATA
+	db 6, DROWZEE	;GASTLY
+	db 5, MURKROW	;GASTLY
+	db 7, MISDREAVUS;GASTLY
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 24, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; day
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 25, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; nite
 	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 21, NOCTOWL	;GASTLY
+	db 22, HAUNTER	;GASTLY
+	db 22, MURKROW	;RATTATA
+	db 23, MISDREAVUS;RATTATA
+	db 24, HOUNDOOM	;RATTATA
+	db 26, HYPNO	;RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 24, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; day
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 25, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; nite
 	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 21, NOCTOWL	;GASTLY
+	db 22, HAUNTER	;GASTLY
+	db 22, MURKROW	;RATTATA
+	db 23, MISDREAVUS;RATTATA
+	db 24, HOUNDOOM	;RATTATA
+	db 26, HYPNO	;RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_4F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 24, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; day
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 25, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; nite
 	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 21, NOCTOWL	;GASTLY
+	db 22, HAUNTER	;GASTLY
+	db 22, MURKROW	;RATTATA
+	db 23, MISDREAVUS;RATTATA
+	db 24, HOUNDOOM	;RATTATA
+	db 26, HYPNO	;RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_5F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 24, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; day
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 25, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; nite
 	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 21, NOCTOWL	;GASTLY
+	db 22, HAUNTER	;GASTLY
+	db 22, MURKROW	;RATTATA
+	db 23, MISDREAVUS;RATTATA
+	db 24, HOUNDOOM	;RATTATA
+	db 26, HYPNO	;RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_6F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 24, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; day
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 25, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; nite
 	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 21, NOCTOWL	;GASTLY
+	db 22, HAUNTER	;GASTLY
+	db 22, MURKROW	;RATTATA
+	db 23, MISDREAVUS;RATTATA
+	db 24, HOUNDOOM	;RATTATA
+	db 26, HYPNO	;RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_7F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 24, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; day
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 25, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; nite
 	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 21, NOCTOWL	;GASTLY
+	db 22, HAUNTER	;GASTLY
+	db 22, MURKROW	;RATTATA
+	db 23, MISDREAVUS;RATTATA
+	db 24, HOUNDOOM	;RATTATA
+	db 26, HYPNO	;RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_8F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 24, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; day
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 25, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; nite
 	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 21, NOCTOWL	;GASTLY
+	db 22, HAUNTER	;GASTLY
+	db 22, MURKROW	;RATTATA
+	db 23, MISDREAVUS;RATTATA
+	db 24, HOUNDOOM	;RATTATA
+	db 26, HYPNO	;RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_9F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 24, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; day
-	db 20, RATTATA
-	db 21, RATTATA
-	db 22, RATTATA
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 20, RATICATE	;RATTATA
+	db 21, PIDGEOTTO;RATTATA
+	db 22, FARFETCH_D;RATTATA
+	db 22, GROWLITHE;RATTATA
+	db 23, KADABRA	;RATTATA
+	db 25, WIGGLYPUFF;RATTATA
+	db 25, XATU	;RATTATA
 	; nite
 	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 22, RATTATA
-	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 21, NOCTOWL	;GASTLY
+	db 22, HAUNTER	;GASTLY
+	db 22, MURKROW	;RATTATA
+	db 23, MISDREAVUS;RATTATA
+	db 24, HOUNDOOM	;RATTATA
+	db 26, HYPNO	;RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons BURNED_TOWER_1F
@@ -314,8 +314,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 18, ZUBAT
-	; db 17, KOFFING
-	db 17, GRIMER;
+	db 17, GRIMER;KOFFING
 	db 16, KOFFING
 	db 16, MISDREAVUS
 	db 16, KOFFING
@@ -323,8 +322,7 @@ JohtoGrassWildMons:
 	db 18, MAGBY;MAR
 	; day
 	db 18, ZUBAT
-	; db 17, KOFFING
-	db 17, GRIMER;
+	db 17, GRIMER;KOFFING
 	db 16, KOFFING
 	db 16, MAGBY;MAR
 	db 16, KOFFING
@@ -333,8 +331,7 @@ JohtoGrassWildMons:
 	; nite
 	db 18, MISDREAVUS
 	db 17, ZUBAT
-	; db 16, KOFFING
-	db 16, GRIMER;
+	db 17, GRIMER;KOFFING
 	db 16, KOFFING
 	db 16, KOFFING
 	db 18, MAGBY;MAR
@@ -373,45 +370,28 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 21, NATU
-	; db 22, NATU
-	db 22, KADABRA;
-	; db 19, NATU
-	db 19, VULPIX;
-	; db 23, NATU
-	db 23, DITTO;
-	; db 20, SMEARGLE
-	db 20, MR__MIME;
+	db 22, KADABRA	;NATU
+	db 19, VULPIX	;NATU
+	db 23, DITTO	;NATU
+	db 20, MR__MIME	;SMEARGLE
 	db 22, SMEARGLE
-	; db 22, SMEARGLE
-	db 22, CHANSEY;
+	db 22, CHANSEY	;SMEARGLE
 	; day
 	db 21, NATU
-	; db 22, NATU
-	db 22, KADABRA;
-	; db 19, NATU
-	db 19, VULPIX;
-	; db 23, NATU
-	db 23, DITTO;
-	; db 20, SMEARGLE
-	db 20, MR__MIME;
+	db 22, KADABRA	;NATU
+	db 19, VULPIX	;NATU
+	db 23, DITTO	;NATU
+	db 20, MR__MIME	;SMEARGLE
 	db 22, SMEARGLE
-	; db 22, SMEARGLE
-	db 22, CHANSEY;
+	db 22, CHANSEY	;SMEARGLE
 	; nite
-	; db 21, NATU
-	db 21, DROWZEE;
-	; db 22, NATU
-	db 22, KADABRA;
-	; db 19, NATU
-	db 19, VULPIX;
-	; db 23, NATU
-	db 23, DITTO;
-	; db 20, WOOPER
-	db 20, WOBBUFFET;
-	; db 22, QUAGSIRE
-	db 22, MISDREAVUS;
-	; db 22, QUAGSIRE
-	db 22, MISDREAVUS;
+	db 21, DROWZEE	;NATU
+	db 22, KADABRA	;NATU
+	db 19, VULPIX	;NATU
+	db 23, DITTO	;NATU
+	db 20, WOBBUFFET;WOOPER
+	db 22, MISDREAVUS;QUAGSIRE
+	db 22, MISDREAVUS;QUAGSIRE
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
