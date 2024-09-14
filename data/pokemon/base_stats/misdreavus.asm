@@ -6,7 +6,8 @@
 	db GHOST, DARK; GHOST ; type
 	db 45 ; catch rate
 	db 147 ; base exp
-	db NO_ITEM, SPELL_TAG ; items
+	; db NO_ITEM, SPELL_TAG ; items
+	db STARDUST, MOON_STONE;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 6 ; step cycles to hatch
