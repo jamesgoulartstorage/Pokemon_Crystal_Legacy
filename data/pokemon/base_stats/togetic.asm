@@ -7,7 +7,8 @@
 	db PSYCHIC_TYPE, FLYING; NORMAL, FLYING ; type
 	db 75 ; catch rate
 	db 114 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db MIRACLEBERRY, EGG_TICKET;
 	db GENDER_F12_5 ; gender ratio
 	db 100 ; unknown 1
 	db 2 ; step cycles to hatch
