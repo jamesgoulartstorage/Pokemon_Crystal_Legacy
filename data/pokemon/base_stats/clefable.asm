@@ -1,6 +1,7 @@
 	db CLEFABLE ; 036
 
-	db  95,  70,  73,  60,  95,  90
+	; db  95,  70,  73,  60,  95,  90
+	db 95, 50, 73, 60, 115, 90
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, PSYCHIC_TYPE; NORMAL ; type
