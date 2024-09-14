@@ -7,7 +7,8 @@
 	db ELECTRIC, GHOST; ELECTRIC ; type
 	db 3 ; catch rate
 	db 216 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db MAGNET, SACRED_ASH;
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch
