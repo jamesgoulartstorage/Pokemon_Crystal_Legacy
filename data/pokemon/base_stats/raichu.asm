@@ -7,7 +7,8 @@
 	db ELECTRIC, PSYCHIC_TYPE; ELECTRIC ; type
 	db 75 ; catch rate
 	db 122 ; base exp
-	db NO_ITEM, BERRY ; items
+	; db NO_ITEM, BERRY ; items
+	db WHT_APRICORN, MAGNET;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 2 ; step cycles to hatch
