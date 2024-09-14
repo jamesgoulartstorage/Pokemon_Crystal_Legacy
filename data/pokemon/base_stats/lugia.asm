@@ -7,7 +7,8 @@
 	db PSYCHIC_TYPE, FLYING ; type
 	db 3 ; catch rate
 	db 220 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db MYSTIC_WATER, BRIGHTPOWDER;
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 30 ; step cycles to hatch
