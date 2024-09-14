@@ -7,7 +7,8 @@
 	db STEEL, GROUND ; type
 	db 25 ; catch rate
 	db 196 ; base exp
-	db NO_ITEM, METAL_COAT ; items
+	; db NO_ITEM, METAL_COAT ; items
+	db METAL_COAT, BRIGHTPOWDER;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 6 ; step cycles to hatch
