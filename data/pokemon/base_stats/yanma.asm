@@ -7,7 +7,8 @@
 	db BUG, FLYING ; type
 	db 75 ; catch rate
 	db 147 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db PRZCUREBERRY, SCOPE_LENS;
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
