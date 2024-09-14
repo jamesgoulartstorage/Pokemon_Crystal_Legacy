@@ -6,7 +6,8 @@
 	db NORMAL, ELECTRIC; NORMAL ; type
 	db 45 ; catch rate
 	db 180 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	; db NO_ITEM, NO_ITEM ; items
+	db SCOPE_LENS, UP_GRADE;
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
