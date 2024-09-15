@@ -1415,34 +1415,28 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	; db 15, SNUBBULL
-	db 15, MAGNEMITE;
-	; db 15, ABRA
-	db 15, VOLTORB;
+	db 15, MAGNEMITE;SNUBBULL
+	db 15, VOLTORB	;ABRA
 	db 15, YANMA
-	db 14, PIDGEY
+	db 14, ELEKID	;PIDGEY
 	db 14, GROWLITHE
 	db 15, GROWLITHE
 	db 18, YANMA
 	; day
-	; db 15, SNUBBULL
-	db 15, MAGNEMITE;
-	; db 15, PIDGEY
-	db 15, VOLTORB;
-	db 15, ABRA
-	db 14, YANMA
+	db 15, MAGNEMITE;SNUBBULL
+	db 15, VOLTORB	;ABRA
+	db 15, YANMA
+	db 14, ELEKID	;PIDGEY
 	db 14, GROWLITHE
 	db 15, GROWLITHE
 	db 18, YANMA
 	; nite
-	; db 15, PSYDUCK
-	db 15, MAGNEMITE;	
-	; db 15, GROWLITHE
-	db 15, VOLTORB;
-	db 15, ABRA
-	db 14, YANMA
-	db 14, DITTO
-	db 15, PSYDUCK
+	db 15, MAGNEMITE;SNUBBULL
+	db 15, VOLTORB	;ABRA
+	db 15, YANMA
+	db 14, ELEKID	;PIDGEY
+	db 14, GROWLITHE
+	db 15, GROWLITHE
 	db 18, YANMA
 	end_grass_wildmons
 
@@ -1507,22 +1501,22 @@ JohtoGrassWildMons:
 	; morn
 	db 21, TAUROS
 	db 21, MILTANK
-	db 20, MAGNEMITE
+	db 20, FLAAFFY	;MAGNEMITE
 	db 20, DODUO
-	db 20, MEOWTH
+	db 20, FURRET	;MEOWTH
 	db 19, RATICATE
-	db 19, RATICATE
+	db 18, PONYTA	;RATICATE
 	; day
-	db 20, MAGNEMITE
+	db 20, FLAAFFY	;MAGNEMITE
 	db 21, MILTANK
 	db 21, TAUROS
 	db 20, DODUO
-	db 20, MEOWTH
+	db 20, FURRET	;MEOWTH
 	db 19, RATICATE
-	db 18, RATICATE
+	db 18, PONYTA	;RATICATE
 	; nite
 	db 20, RATICATE
-	db 20, MAGNEMITE
+	db 20, FURRET	;MAGNEMITE
 	db 19, MEOWTH
 	db 21, NOCTOWL
 	db 21, MEOWTH
@@ -1543,7 +1537,7 @@ JohtoGrassWildMons:
 	; day
 	db 21, PONYTA
 	db 21, RATICATE
-	db 21, MAGNEMITE
+	db 21, FLAAFFY	;MAGNEMITE
 	db 21, DODUO
 	db 21, MILTANK
 	db 21, TAUROS
@@ -1551,7 +1545,7 @@ JohtoGrassWildMons:
 	; nite
 	db 21, MEOWTH
 	db 21, RATICATE
-	db 20, MAGNEMITE
+	db 20, FURRET	;MAGNEMITE
 	db 20, NOCTOWL
 	db 18, MEOWTH
 	db 19, MEOWTH
@@ -1591,27 +1585,27 @@ JohtoGrassWildMons:
 	; morn
 	db 21, FURRET
 	db 22, GIRAFARIG
-	db 22, FARFETCH_D
-	db 23, FLAAFFY
-	db 22, RATICATE
+	db 22, ARBOK	;FARFETCH_D
+	db 23, KANGASKHAN;FLAAFFY
+	db 22, LICKITUNG;RATICATE
 	db 24, SKARMORY
-	db 24, SKARMORY
+	db 24, SNORLAX	;SKARMORY
 	; day
 	db 21, FURRET
 	db 22, GIRAFARIG
-	db 22, FARFETCH_D
-	db 23, FLAAFFY
-	db 22, RATICATE
+	db 22, ARBOK	;FARFETCH_D
+	db 23, KANGASKHAN;FLAAFFY
+	db 22, LICKITUNG;RATICATE
 	db 24, SKARMORY
-	db 24, SKARMORY
+	db 24, SNORLAX	;SKARMORY
 	; nite
-	db 21, VENONAT
+	db 21, ARBOK	;VENONAT
 	db 22, GIRAFARIG
 	db 22, RATICATE
-	db 23, FLAAFFY
-	db 23, VENOMOTH
+	db 23, KANGASKHAN;FLAAFFY
+	db 23, LICKITUNG;VENOMOTH
 	db 24, SKARMORY
-	db 24, SKARMORY
+	db 24, SNORLAX	;SKARMORY
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_44
