@@ -113,20 +113,20 @@ TreeMonSet_Lake:
 
 TreeMonSet_Forest:
 ; common
-	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, NOCTOWL,    10
-	db  5, BUTTERFREE, 10
-	db  5, BEEDRILL,   10
+	db 25, MANKEY,   10	;50, HOOTHOOT,   10
+	db 15, METAPOD,     10	;15, PINECO,     10
+	db 15, KAKUNA,     10	;15, PINECO,     10
+	db 15, SPINARAK,    10	;10, NOCTOWL,    10
+	db 15, BUTTERFREE, 15	; 5, BUTTERFREE, 10
+	db 15, BEEDRILL,   15	; 5, BEEDRILL,   10
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, CATERPIE,   10
-	db 15, WEEDLE,     10
-	db 10, HOOTHOOT,   10
-	db  5, METAPOD,    10
-	db  5, KAKUNA,     10
+	db 25, AIPOM,   10	;50, HOOTHOOT,   10
+	db 15, ARIADOS,   10	;15, CATERPIE,   10
+	db 15, SUDOWOODO,     10	;15, WEEDLE,     10
+	db 15, EXEGGUTOR,   10	;10, HOOTHOOT,   10
+	db 15, HERACROSS,    10	; 5, METAPOD,    10
+	db 15, PINSIR,     10	; 5, KAKUNA,     10
 	db -1
 
 ; Rock smash sets dont have common/rare tables
