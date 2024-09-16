@@ -341,16 +341,16 @@ JohtoGrassWildMons:
 	def_grass_wildmons NATIONAL_PARK
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, NIDORAN_M
-	db 15, NIDORAN_F
+	db 14, NIDORAN_F	;NIDORAN_M
+	db 15, YANMA		;NIDORAN_F
 	db 21, GLOOM		;17, SUNKERN
 	db 10, BEEDRILL		;WEEDLE
 	db 10, BUTTERFREE	;CATERPIE
 	db 16, SCYTHER
 	db 16, KANGASKHAN	;SCYTHER
 	; day
-	db 15, NIDORAN_F
 	db 14, NIDORAN_M
+	db 15, YANMA		;NIDORAN_F
 	db 21, GLOOM		;17, SUNKERN
 	db 10, BEEDRILL		;WEEDLE
 	db 10, BUTTERFREE	;CATERPIE
@@ -567,7 +567,7 @@ JohtoGrassWildMons:
 	; morn
 	db 8,  LEDYBA	;8,  CATERPIE
 	db 12, PARAS	;8,  WEEDLE
-	db 12, EXECU	;12, PARAS
+	db 12, EXEGGCUTE	;12, PARAS
 	db 15, STANTLER	;12, ODDISH
 	db 9, PICHU	;13, PARAS
 	db 8, IGGLYBUFF	;9,  METAPOD
@@ -575,7 +575,7 @@ JohtoGrassWildMons:
 	; day
 	db 8,  LEDYBA	;8,  CATERPIE
 	db 12, PARAS	;8,  WEEDLE
-	db 12, EXECU	;12, PARAS
+	db 12, EXEGGCUTE	;12, PARAS
 	db 15, STANTLER	;12, ODDISH
 	db 9, PICHU	;13, PARAS
 	db 8, BELLSPROUT;9,  KAKUNA
