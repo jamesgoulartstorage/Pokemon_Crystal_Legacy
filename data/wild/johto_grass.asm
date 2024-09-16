@@ -343,21 +343,21 @@ JohtoGrassWildMons:
 	; morn
 	db 14, NIDORAN_M
 	db 15, NIDORAN_F
-	db 17, SUNKERN
-	db 10, WEEDLE
-	db 10, CATERPIE
+	db 21, GLOOM		;17, SUNKERN
+	db 10, BEEDRILL		;WEEDLE
+	db 10, BUTTERFREE	;CATERPIE
 	db 16, SCYTHER
 	db 16, KANGASKHAN	;SCYTHER
 	; day
 	db 15, NIDORAN_F
 	db 14, NIDORAN_M
-	db 10, WEEDLE
-	db 13, SUNKERN
-	db 10, CATERPIE
+	db 21, GLOOM		;17, SUNKERN
+	db 10, BEEDRILL		;WEEDLE
+	db 10, BUTTERFREE	;CATERPIE
 	db 16, SCYTHER
 	db 16, KANGASKHAN	;SCYTHER
 	; nite
-	db 13, PSYDUCK
+	db 13, ODDISH		;PSYDUCK
 	db 17, MURKROW
 	db 14, SPINARAK
 	db 15, HOOTHOOT
@@ -565,39 +565,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ILEX_FOREST
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 8,  CATERPIE
-	db 8,  WEEDLE
-	db 12, PARAS
-	db 12, ODDISH
-	; db 13, PARAS
-	; db 9,  METAPOD
-	; db 9,  METAPOD
-	db 9, PICHU;
-	db 8, IGGLYBUFF;
-	db 9, TOGEPI;
+	db 8,  LEDYBA	;8,  CATERPIE
+	db 12, PARAS	;8,  WEEDLE
+	db 12, EXECU	;12, PARAS
+	db 15, STANTLER	;12, ODDISH
+	db 9, PICHU	;13, PARAS
+	db 8, IGGLYBUFF	;9,  METAPOD
+	db 9, TOGEPI	;9,  METAPOD
 	; day
-	db 8,  CATERPIE
-	db 8,  WEEDLE
-	db 12, PARAS
-	db 12, ODDISH
-	; db 13, PARAS
-	; db 9,  KAKUNA
-	; db 9,  KAKUNA
-	db 9, PICHU;
-	db 8, MARILL;
-	db 9, CHIKORITA;
+	db 8,  LEDYBA	;8,  CATERPIE
+	db 12, PARAS	;8,  WEEDLE
+	db 12, EXECU	;12, PARAS
+	db 15, STANTLER	;12, ODDISH
+	db 9, PICHU	;13, PARAS
+	db 8, BELLSPROUT;9,  KAKUNA
+	db 9, CHIKORITA	;9,  KAKUNA
 	; nite
-	db 12, ODDISH
+	db 12, PARAS	;12, ODDISH
 	db 12, VENONAT
-	db 12, PARAS
-	; db 12, HOOTHOOT
-	; db 13, ODDISH
-	; db 13, PSYDUCK
-	; db 13, PSYDUCK
-	db 9, ELEKID;
-	db 8, SMOOCHUM;
-	db 8, CLEFFA;
-	db 9, BULBASAUR;	
+	db 15, STANTLER	;12, PARAS
+	db 9, PICHU	;12, HOOTHOOT
+	db 8, SMOOCHUM	;13, ODDISH
+	db 8, CLEFFA	;13, PSYDUCK
+	db 9, BULBASAUR	;13, PSYDUCK
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
