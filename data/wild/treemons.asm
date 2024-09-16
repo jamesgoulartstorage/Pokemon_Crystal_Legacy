@@ -59,20 +59,20 @@ TreeMonSet_Town:
 
 TreeMonSet_Route:
 ; common
-	db 50, HOOTHOOT,   10
+	db 20, HOOTHOOT,   10
 	db 15, SPINARAK,   10
 	db 15, LEDYBA,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 15, SUNKERN,  10	;10, EXEGGCUTE,  10
+	db 15, PINECO,  10	; 5, EXEGGCUTE,  10
+	db 20, PIDGEY,   10	; 5, EXEGGCUTE,  10
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 20, NOCTOWL,   25		;50, HOOTHOOT,   10
+	db 15, SUDOWOODO,     20	;15, PINECO,     10
+	db 15, EXEGGUTOR,   30		;15, PINECO,     10
+	db 15, FORRETRESS,   30		;10, EXEGGCUTE,  10
+	db 15, SUNFLORA,  25		;5, EXEGGCUTE,  10
+	db 20, PIDGEOTTO,   20		; 5, EXEGGCUTE,  10
 	db -1
 
 TreeMonSet_Kanto:
@@ -113,26 +113,33 @@ TreeMonSet_Lake:
 
 TreeMonSet_Forest:
 ; common
-	db 25, MANKEY,   10	;50, HOOTHOOT,   10
-	db 15, METAPOD,     10	;15, PINECO,     10
-	db 15, KAKUNA,     10	;15, PINECO,     10
+	db 15, MANKEY,   10	;50, HOOTHOOT,   10
+	db 15, PINECO,     10
+	db 15, AIPOM,     15	;15, PINECO,     10
 	db 15, SPINARAK,    10	;10, NOCTOWL,    10
-	db 15, BUTTERFREE, 15	; 5, BUTTERFREE, 10
-	db 15, BEEDRILL,   15	; 5, BEEDRILL,   10
+	db 20, METAPOD, 10	; 5, BUTTERFREE, 10
+	db 20, KAKUNA,   10	; 5, BEEDRILL,   10
 	db -1
 ; rare
-	db 25, AIPOM,   10	;50, HOOTHOOT,   10
-	db 15, ARIADOS,   10	;15, CATERPIE,   10
-	db 15, SUDOWOODO,     10	;15, WEEDLE,     10
-	db 15, EXEGGUTOR,   10	;10, HOOTHOOT,   10
-	db 15, HERACROSS,    10	; 5, METAPOD,    10
-	db 15, PINSIR,     10	; 5, KAKUNA,     10
+	db 15, FORRETRESS,   30	;50, HOOTHOOT,   10
+	db 15, ARIADOS,   30	;15, CATERPIE,   10
+	db 15, SUDOWOODO,     20	;15, WEEDLE,     10
+	db 15, EXEGGUTOR,   30	;10, HOOTHOOT,   10
+	db 20, HERACROSS,    20	; 5, METAPOD,    10
+	db 20, PINSIR,     20	; 5, KAKUNA,     10
 	db -1
 
 ; Rock smash sets dont have common/rare tables
 ; can have as many entries as you want as long as the % adds up to 100
 ; feel free to add new rock smash sets
 TreeMonSet_Rock:
-	db 90, KRABBY,     15
+	db 25, KRABBY,     15
 	db 10, SHUCKLE,    15
+	db 30, GEODUDE,     15;
+	db 9, GRAVELER,     30;
+	db 1, GOLEM,     50;
+	db 10, DIGLETT,     15;
+	db 5, DUGTRIO,     40;
+	db 9, SANDSHREW,     15;
+	db 1, SANDSLASH,     40;
 	db -1
